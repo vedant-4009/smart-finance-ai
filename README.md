@@ -7,42 +7,45 @@
 
 Smart Finance is a multi-user personal finance analytics platform built with Python and Streamlit.
 
-The application allows users to securely create an account, manage their expenses, analyze spending patterns, and interact with an AI Finance Assistant that provides insights and practical expense-reduction suggestions based on recorded financial data.
+The application allows users to securely create an account, manage their expenses, analyze spending patterns, and interact with an AI Finance Assistant that provides financial insights and practical expense-reduction suggestions based on recorded expense data.
 
 ---
 
 ## Live Demo
 
-**Try the application online:**
+Try the application online:
 
-https://smart-finance-ai.streamlit.app/
+**https://smart-finance-ai.streamlit.app/**
 
-**GitHub Repository:**
+GitHub Repository:
 
-https://github.com/vedant-4009/smart-finance-ai
+**https://github.com/vedant-4009/smart-finance-ai**
 
 ---
 
 ## Project Overview
 
-Managing personal expenses becomes difficult when spending data is scattered across different places.
+Smart Finance provides a centralized platform for managing and analyzing personal expenses.
 
-Smart Finance provides a centralized platform where users can:
+Users can:
 
-- Create and manage their own account
-- Record daily expenses
-- Edit and delete transactions
-- Search and filter expenses
+- Create an account
+- Log in securely
+- Add expenses
+- Edit expenses
+- Delete expenses
+- Search transactions
+- Filter transactions
 - Analyze spending patterns
 - View interactive financial charts
-- Ask natural-language questions to an AI Finance Assistant
-- Get practical suggestions for reducing unnecessary spending
+- Ask questions to the AI Finance Assistant
+- Get practical expense-reduction suggestions
 
 The application follows a multi-user architecture where each user's financial data is isolated using an authenticated `user_id`.
 
 ---
 
-## Key Features
+## Features
 
 ### Secure Authentication
 
@@ -51,9 +54,9 @@ The application follows a multi-user architecture where each user's financial da
 - Unique email enforcement
 - Password confirmation
 - Secure password hashing
-- Generic login error messages
 - Session-based authentication
 - Secure logout
+- Generic authentication error messages
 
 ### Expense Management
 
@@ -69,7 +72,7 @@ Users can manage their financial transactions through complete CRUD operations:
 - Select transaction dates
 - Add descriptions
 
-### Personal Dashboard
+### Dashboard
 
 The dashboard provides an overview of the user's financial activity.
 
@@ -99,7 +102,7 @@ Analytics include:
 
 The application includes an AI-powered Finance Assistant using OpenRouter.
 
-The assistant can answer questions such as:
+The assistant can answer personal finance questions such as:
 
 ```text
 What is my total spending?
